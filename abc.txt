@@ -1,0 +1,25 @@
+	• Git : version control system .keeps track of all changes.
+
+	• git init :track all changes of this folder.
+
+	• Touch filename.ext creates file.     
+	• Gits database is called as repository.
+• Git status :which branch are we on.no commits yet means that the changes haven't been saved in gits repository.
+• 2 types of tracking :1 is to track folder and the other one to save some files present in the folder. we use git init for first.
+• For second (git add . )Saves all files in tracking list. otherwise use filename.ext instead of dot.
+• Green color means its tracking red means not tracking.in git status.
+• We need to give our id to git so that it knows who made changes and it exist for one project at time.i.e local level.one username for one project.
+• Global level:if we want same username etc for all projects global is used.
+• System:-all users using same system.
+• Git config :to check all list of functions.
+• Git config --local user.name "murtaz" :to create user
+• Git config --local user.name : to check created users
+• Git config --local user.email "murtazraina25@gmal.com" :to link email to project
+• Git commit : to save it to repository
+• Git commit -m "message you want to display for others".
+• Git saves offline on hard disk(local repository) while as github saves online(online repositoty).
+• Git remote add origin https://github.com/murtaz25raina/java-work.git 
+• git remote show origin(we can use anything instead of origin as it is just var).remote means we are using it from some place.
+• Origin is the variable which represents the url.
+• Git push -u origin master : 
+• Copy code from someone's repository:git clone "their' address".
